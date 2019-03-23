@@ -75,12 +75,12 @@ for the first time to init Git flow inside the local repository.
 
 ### Node and NPM
 
-[NVM](https://github.com/creationix/nvm) is a node version manager. A tool to install and keep at the same time several versions of nodejs on your computer.
+[fnm](https://github.com/Schniz/fnm) is a node version manager. A tool to install and keep at the same time several versions of nodejs on your computer.
 
-- `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
-- **oh-my-zsh only** add `nvm` to `plugins` section of `~/.zshrc`
+- `curl https://raw.githubusercontent.com/Schniz/fnm/master/.ci/install.sh | bash`
 - Reopen terminal
-- `nvm install` (inside this folder)
+- `fnm install 10.14`
+- `fnm use 10.14`
 - `npm update -g npm`
 
 ### iOS (Mac only)
